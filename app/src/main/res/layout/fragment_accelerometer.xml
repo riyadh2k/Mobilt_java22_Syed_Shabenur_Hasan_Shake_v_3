@@ -1,0 +1,36 @@
+<!-- Layout för fragmentet -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/xValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="X-värde: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/yValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Y-värde: "
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/zValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Z-värde: "
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/image_accelerometer"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_launcher_foreground"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
